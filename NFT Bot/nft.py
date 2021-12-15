@@ -65,7 +65,7 @@ if endpoint == 'Assets':
 
     collection = st.sidebar.text_input('Collection')
     owner = st.sidebar.text_input('Owner')
-    params = {'limit' : 2}
+    params = {'limit' : 10}
 
     if collection:
         params ['collection'] = collection,
